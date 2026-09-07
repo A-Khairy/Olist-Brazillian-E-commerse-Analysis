@@ -1,0 +1,19 @@
+# Data files & SQL Backups (Too large for GitHub)
+data/
+*.csv
+*.bak
+*.parquet
+*.zip
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+venv/
+env/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vs/
