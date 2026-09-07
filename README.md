@@ -16,8 +16,6 @@ Olist operates a marketplace connecting small merchants across Brazil to major e
 * **Customer Retention & Review Sentiment:** Investigating drivers behind low review scores and product return patterns.
 * **Revenue & Merchandising Insights:** Identifying top-performing product categories and payment distribution preferences.
 
----
-
 ## 🛠️ Tech Stack & Workflow
 
 * **SQL:** Multi-table data cleaning, whitespace normalization, handling `NULL` records, and schema joins.
