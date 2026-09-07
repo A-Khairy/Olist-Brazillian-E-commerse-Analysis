@@ -29,7 +29,7 @@ flowchart TD
     B --> C[Python EDA & Metric Extraction]
     C --> D[Power BI Star Schema Modeling]
     D --> E[Interactive Executive Dashboards]
-
+```
 ## 📈 Key Insights & Business Findings
 Delivery Performance vs. Customer Satisfaction: Orders delivered after the estimated SLA date experienced an immediate ~70% drop in review scores (averaging 1.4 stars vs. 4.3 stars for on-time deliveries).
 
