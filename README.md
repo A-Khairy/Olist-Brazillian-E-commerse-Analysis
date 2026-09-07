@@ -36,4 +36,34 @@ Delivery Performance vs. Customer Satisfaction: Orders delivered after the estim
 Payment Preference: Credit card installments account for over 70% of total payment volume, with higher average order value (AOV) on orders split into 4+ installments.
 
 Regional Logistics Imbalance: Southeastern states (SP, RJ, MG) account for over 60% of total volume with fastest fulfillment times, while North/Northeastern routes exhibit severe transit delays.
+---
 
+## 📊 Dashboard Preview
+
+| Executive Overview | Delivery Logistics & SLA |
+| :---: | :---: |
+| ![Executive Dashboard](reports/images/growth.png) | ![Delivery Logistics](reports/images/delivery-van.png) |
+
+*(Interactive dashboard file available under `dashboards/olist_powerbi_final.pbix`)*
+
+---
+
+## 📂 Repository Structure
+
+```text
+├── dashboards/
+│   └── olist_powerbi_final.pbix
+├── notebooks/
+│   ├── Ecommerce_Project.ipynb
+│   ├── Export_data_from_sql.py
+│   └── app.py
+├── reports/
+│   ├── images/
+│   └── Brazilian-E-Commerce-Data-Analysis-Olist-Dataset.pptx
+├── scripts/
+│   ├── Data Cleaning - Null.sql
+│   ├── Data Cleaning - Spaces.sql
+│   └── Data Cleaning.sql
+├── .gitignore
+├── requirements.txt
+└── README.md
