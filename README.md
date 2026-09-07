@@ -40,9 +40,7 @@ Regional Logistics Imbalance: Southeastern states (SP, RJ, MG) account for over 
 
 ## 📊 Dashboard Preview
 
-| Executive Overview | Delivery Logistics & SLA |
-| :---: | :---: |
-| ![Executive Dashboard](reports/images/growth.png) |
+![Executive Dashboard](reports/images/scr.png)
 
 *(Interactive dashboard file available under `dashboards/olist_powerbi_final.pbix`)*
 
