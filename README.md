@@ -26,26 +26,34 @@ Olist operates a marketplace connecting small merchants across Brazil to major e
 
 ```mermaid
 flowchart TD
-    A[Raw Data: Olist CSV Datasets] --> B[SQL Transformations & Data Cleaning]
-    subgraph Cleaning [Data Standardization]
-        B --> B1[Whitespace & String Normalization]
-        B --> B2[Handling Missing / NULL Values]
-        B --> B3[Relational Validation & Schema Joins]
+    A["Raw Data: Olist CSV Datasets"] --> B["SQL Transformations & Data Cleaning"]
+    
+    subgraph Cleaning ["Data Standardization"]
+        B --> B1["Whitespace & String Normalization"]
+        B --> B2["Handling Missing & NULL Values"]
+        B --> B3["Relational Validation & Schema Joins"]
     end
-    Cleaning --> C[Python EDA & Statistical Extraction]
-    C --> D[Power BI Star Schema & Data Modeling]
-    D --> E[Interactive Executive & Operational Dashboards]
+    
+    Cleaning --> C["Python EDA & Statistical Extraction"]
+    C --> D["Power BI Star Schema & Data Modeling"]
+    D --> E["Interactive Executive & Operational Dashboards"]
 
     style A fill:#f9f9f9,stroke:#666,stroke-width:1px
     style Cleaning fill:#f0f4f8,stroke:#2b6cb0,stroke-width:1px
     style C fill:#eef9f2,stroke:#2f855a,stroke-width:1px
     style D fill:#fffaf0,stroke:#dd6b20,stroke-width:1px
     style E fill:#ebf8ff,stroke:#3182ce,stroke-width:1px
-    📈 Key Insights & Business FindingsDelivery Performance vs. Customer Satisfaction: Orders delivered after the estimated SLA date experienced an immediate ~70% drop in review scores (averaging 1.4 stars vs. 4.3 stars for on-time deliveries).Payment Preference: Credit card installments account for over 70% of total payment volume, with higher average order value (AOV) on orders split into 4+ installments.Regional Logistics Imbalance: Southeastern states (SP, RJ, MG) account for over 60% of total volume with fastest fulfillment times, while North/Northeastern routes exhibit severe transit delays.
-    📊 Dashboard Preview
-    (Interactive dashboard file available under dashboards/olist_powerbi_final.pbix)
-    📂 Repository Structure
-    ├── dashboards/
+    ```
+    📈 Key Insights & Business Findings
+Delivery Performance vs. Customer Satisfaction: Orders delivered after the estimated SLA date experienced an immediate ~70% drop in review scores (averaging 1.4 stars vs. 4.3 stars for on-time deliveries).
+
+Payment Preference: Credit card installments account for over 70% of total payment volume, with higher average order value (AOV) on orders split into 4+ installments.
+
+Regional Logistics Imbalance: Southeastern states (SP, RJ, MG) account for over 60% of total volume with fastest fulfillment times, while North/Northeastern routes exhibit severe transit delays.
+📊 Dashboard Preview
+(Interactive dashboard file available under dashboards/olist_powerbi_final.pbix)
+📂 Repository Structure
+├── dashboards/
 │   └── olist_powerbi_final.pbix      # Interactive Power BI report & data model
 ├── notebooks/
 │   ├── Ecommerce_Project.ipynb      # End-to-end EDA and metric exploration
