@@ -28,4 +28,11 @@ flowchart TD
     A[Raw Data: Olist CSVs] --> B[SQL Transformations & Cleaning]
     B --> C[Python EDA & Metric Extraction]
     C --> D[Power BI Star Schema Modeling]
-    D --> E[Interactive Executive Dashboards]
+    D --> E[Interactive Executive Dashboards]```
+    📈 Key Insights & Business Findings
+Delivery Performance vs. Customer Satisfaction: Orders delivered after the estimated SLA date experienced an immediate ~70% drop in review scores (averaging 1.4 stars vs. 4.3 stars for on-time deliveries).
+
+Payment Preference: Credit card installments account for over 70% of total payment volume, with higher average order value (AOV) on orders split into 4+ installments.
+
+Regional Logistics Imbalance: Southeastern states (SP, RJ, MG) account for over 60% of total volume with fastest fulfillment times, while North/Northeastern routes exhibit severe transit delays.
+
