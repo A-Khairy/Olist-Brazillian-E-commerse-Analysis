@@ -29,7 +29,6 @@ flowchart TD
     B --> C[Python EDA & Metric Extraction]
     C --> D[Power BI Star Schema Modeling]
     D --> E[Interactive Executive Dashboards]
----
 
 ## 📈 Key Insights & Business Findings
 
